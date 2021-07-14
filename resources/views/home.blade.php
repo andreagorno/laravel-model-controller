@@ -25,7 +25,7 @@
                         <h2>{{ $movie->title }}</h2>
                         <h4>{{ $movie->original_title }}</h4>
                         <h5>{{ $movie->nationality }}</h5>
-                        <small>{{ $movie->date }}</small>
+                        <h5>{{ $movie->date }}</h5>
                         <small>{{ $movie->vote }}</small>
                     </div>
                 @endforeach  
